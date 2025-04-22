@@ -40,6 +40,6 @@ curl -X POST -d "_user=test&_pass=secret" http://localhost:8080/login
 
 У credentials.txt з’явиться щось на кшталт:
 
-```
+```pgsql
 time=2025-04-22T14:31:10Z username=test password=secret user-agent=curl/7.81.0 ip_address=127.0.0.1:52144 level=info msg="login attempt"
 ```
